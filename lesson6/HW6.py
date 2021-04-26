@@ -118,8 +118,10 @@ def sort_folder():
     move_files(path, folder_path)
     delete_empty_folders(path, folder_path)
 
-import pathlib
-import os
-import shutil
 
-sort_folder()
+if __name__ == '__main__':
+    import pathlib
+    import os
+    import shutil
+
+    sort_folder()
