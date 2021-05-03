@@ -22,6 +22,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir={"": "clean_folder"},
-    packages=setuptools.find_packages(where="src"),
+    packages=setuptools.find_packages(where="clean_folder"),
     python_requires=">=3.6",
 )
