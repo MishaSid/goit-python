@@ -12,6 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/pypa/sampleproject",
+    entry_points={'console_scripts': ['sort_folder = clean_folder.clean:sort_folder']}
     project_urls={
         "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
     },
